@@ -5,5 +5,5 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/https://github.com/hanota94-source/Portofolio2/",
+  base: "/Portofolio/",
 });
