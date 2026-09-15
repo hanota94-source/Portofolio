@@ -34,7 +34,8 @@ const PROJECTS: Project[] = [
   {
     id: 2,
     code: "A004_C022",
-    title: " مراجعة و تلخيص | لمانجا درب الفلك 🟢 (أفضل مانجا عربية على الاطلاق !؟) 🔥🤯🇰🇼 ",
+    title:
+      " مراجعة و تلخيص | لمانجا درب الفلك 🟢 (أفضل مانجا عربية على الاطلاق !؟) 🔥🤯🇰🇼 ",
     tags: ["motion graphics", "Edit"],
     duration: "09:21",
     image: "0dbd987438234519ae639ae23d27377d_thumbnail.jpg", // صورة فنية موسيقية (جيتار/أضواء)
@@ -43,7 +44,8 @@ const PROJECTS: Project[] = [
   {
     id: 3,
     code: "A004_C043",
-    title: " شياطين وملائكة ثانيتا؟... أبطال ولكن | مراجعة وتحليل الحلقه التجريبية | Heathens ",
+    title:
+      " شياطين وملائكة ثانيتا؟... أبطال ولكن | مراجعة وتحليل الحلقه التجريبية | Heathens ",
     tags: ["motion graphics", "Edit"],
     duration: "06:19",
     image: "hFBk9pvlYS8-HD.jpg", // صورة فنية موسيقية (جيتار/أضواء)
@@ -354,8 +356,14 @@ function Hero() {
           </h1>
 
           <p className="hero-copy max-w-md text-sm leading-relaxed text-zinc-400 sm:text-base lg:text-lg">
-            Professional editing tools built for fast, precise cuts — designed
-            for creators who don't wait around.
+            Hello, I'm mahfoud, I've been here in this field for more than 3
+            years, and I help creative people and people with a great passion to
+            turn audio without any background into content that achieves great
+            success. I don't just cut clips, I solve problems: keep the pace of
+            the video, tell stories, and keep viewers hooked until the end. I do
+            not create random effects. I try as much as possible to make the
+            viewer understand what you are talking about in a spontaneous way
+            that anyone can understand.{" "}
           </p>
 
           {/* حاوية متجاوبة بالكامل لأزرار وسائل التواصل والمعلومات */}
