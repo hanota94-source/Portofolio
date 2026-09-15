@@ -25,38 +25,38 @@ const PROJECTS: Project[] = [
   {
     id: 1,
     code: "A001_C014",
-    title: "Nightfall — Automotive",
-    tags: ["Color Grading", "Commercial"],
-    duration: "00:52",
+    title: "Video 1",
+    tags: ["motion graphics", "Edit"],
+    duration: "07:31",
     image: "bbab0b8e9a0a4877b8f26bbdfab17d9d_thumbnail.jpg", // صورة سيارة ليلية
-    link: "",
+    link: "https://drive.google.com/file/d/19Qee65O4SDcFssxc8ZQ5_nVN-lD0rYs5/view?usp=drivesdk",
   },
   {
     id: 2,
-    code: "A002_C031",
-    title: "Fracture — Title Sequence",
-    tags: ["VFX", "Motion Graphics"],
-    duration: "01:14",
-    image: "057595b6d2554ff4958e0847e32fafd0_thumbnail.jpg", // صورة جرافيكس أو تكنولوجيا
-    link: "",
+    code: "A004_C022",
+    title: " مراجعة و تلخيص | لمانجا درب الفلك 🟢 (أفضل مانجا عربية على الاطلاق !؟) 🔥🤯🇰🇼 ",
+    tags: ["motion graphics", "Edit"],
+    duration: "09:21",
+    image: "0dbd987438234519ae639ae23d27377d_thumbnail.jpg", // صورة فنية موسيقية (جيتار/أضواء)
+    link: "https://www.youtube.com/watch?v=uun4spnsZUQ",
   },
   {
     id: 3,
-    code: "A003_C007",
-    title: "Concrete Bloom — Documentary",
-    tags: ["Documentary", "Sound Design"],
-    duration: "03:40",
-    image: "370adb1a254f49b7a05486bcc88f7447_thumbnail.jpg", // صورة ذات طابع صناعي/معماري
-    link: "",
+    code: "A004_C043",
+    title: " شياطين وملائكة ثانيتا؟... أبطال ولكن | مراجعة وتحليل الحلقه التجريبية | Heathens ",
+    tags: ["motion graphics", "Edit"],
+    duration: "06:19",
+    image: "hFBk9pvlYS8-HD.jpg", // صورة فنية موسيقية (جيتار/أضواء)
+    link: "https://youtu.be/hFBk9pvlYS8?si=XxidUhbuWA1cApKa",
   },
   {
     id: 4,
-    code: "A004_C022",
-    title: "Wavelength — Music Video",
-    tags: ["Color Grading", "VFX", "Edit"],
-    duration: "02:58",
-    image: "0dbd987438234519ae639ae23d27377d_thumbnail.jpg", // صورة فنية موسيقية (جيتار/أضواء)
-    link: "",
+    code: "A004_C043",
+    title: " تاريخ ستوب موشن🎨🖌 ",
+    tags: ["motion graphics", "Edit"],
+    duration: "03:39",
+    image: "9c_ZYUkaBhc-HD.jpg", // صورة فنية موسيقية (جيتار/أضواء)
+    link: "https://youtu.be/9c_ZYUkaBhc?si=HZEQGjpuUGp-XgjX",
   },
 ];
 
@@ -406,7 +406,7 @@ function Hero() {
             style={{ clipPath: "circle(50% at 50% 50%)" }}
           >
             <img
-              src="740641e9c1c64313a6dc433a911fe8e5.jpg"
+              src="avatar.png"
               alt="Avatar"
               className="h-full w-full object-cover"
             />
@@ -611,9 +611,9 @@ function Contact() {
     setIsSubmitting(true);
     setStatusMessage(null);
 
-    const serviceID = "service_zvizk67";
-    const templateID = "template_y3pwycb";
-    const publicKey = "RfWhB81SZTD7XQJa7";
+    const serviceID = "service_v9pggcl";
+    const templateID = "template_ojt2v58";
+    const publicKey = "jbZ68ppT4r_X3cb_o";
 
     const templateParams = {
       name: formData.name,
