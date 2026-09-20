@@ -25,6 +25,15 @@ const PROJECTS: Project[] = [
   {
     id: 1,
     code: "A001_C014",
+    title: " التيك توك هي أسوء منصة في التاريخ ! (+16.7) ",
+    tags: ["motion graphics", "Edit"],
+    duration: "54:26",
+    image: "02aT3IrdsyQ-HD.jpg", // صورة سيارة ليلية
+    link: "https://youtu.be/02aT3IrdsyQ?si=KnlWlxR8MrnyRSxf",
+  },
+  {
+    id: 1,
+    code: "A001_C014",
     title: "Video 1",
     tags: ["motion graphics", "Edit"],
     duration: "07:31",
